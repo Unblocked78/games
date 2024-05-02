@@ -7,7 +7,7 @@ javascript: (() => {
   const what = prompt("What game?");
 
   // Generate iframe URL
-  const url = `https://unblocked78.github.io/${where}/${what}`;  
+  const url = `https://unblocked78.github.io/${where}/${what}.html`;  
 
   // Create iframe element
   const iframe = document.createElement('iframe');
@@ -24,6 +24,5 @@ javascript: (() => {
   document.body.appendChild(iframe);
   
 })();
-
 
 
