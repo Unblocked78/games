@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <iframe src="https://wayou.github.io/t-rex-runner/"></iframe>
+
+  <script>
+    const iframe = document.querySelector('iframe');
+
+    iframe.addEventListener('load', () => {
+      iframe.contentWindow.document.body.requestFullscreen();
+    });
+  </script>
+
+</body>
+</html>
