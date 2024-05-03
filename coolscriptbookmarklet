@@ -1,2 +1,2 @@
-COPY THE CODE BELOW AND PUT IT INTO BOOKMARK
+COPY THE CODE BELOW AND PUT IT INTO BOOKMARK /// To use go to about:blank and use the bookmark
 javascript:(function(){  fetch("https://raw.githubusercontent.com/Unblocked78/games/games/coolscript.js")    .then(response => response.text())    .then(code => {      eval(code);  });  })();
