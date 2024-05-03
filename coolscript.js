@@ -1,13 +1,8 @@
 javascript: (() => {
 
-  // Ask for game type
-  const where = "games"
-
-  // Ask for specific game
-  const what = prompt("What game? Your options are all the games in Unblocked78.github.io/games");
 
   // Generate iframe URL
-  const url = `https://unblocked78.github.io/${where}/${what}.html`;  
+  const url = `https://unblocked78.github.io/games/`;  
 
   // Create iframe element
   const iframe = document.createElement('iframe');
