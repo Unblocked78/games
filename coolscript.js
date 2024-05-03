@@ -1,7 +1,7 @@
 javascript: (() => {
 
   // Ask for game type
-  const where = prompt("Do you want games, or (there is nothing)?");
+  const where = "games"
 
   // Ask for specific game
   const what = prompt("What game?");
