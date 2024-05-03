@@ -1,23 +1,9 @@
-javascript: (() => {
+const newTab = window.open('about:blank', '_blank');
 
+const iframe = document.createElement('iframe');
+iframe.src = 'https://unblocked78.github.io/games/';
+iframe.style.width = '100%'; 
+iframe.style.height = '100%';
+iframe.style.border = 'none';
 
-  // Generate iframe URL
-  const url = `https://unblocked78.github.io/games/`;  
-
-  // Create iframe element
-  const iframe = document.createElement('iframe');
-  iframe.src = url;
-  iframe.width = '100%';
-  iframe.height = '100%';
-
-  // Set styles
-  iframe.style.position = 'absolute';
-  iframe.style.top = 0;
-  iframe.style.left = 0;
-
-  // Append to body
-  document.body.appendChild(iframe);
-  
-})();
-
-
+newTab.document.body.appendChild(iframe);
