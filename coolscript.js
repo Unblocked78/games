@@ -4,7 +4,7 @@ javascript: (() => {
   const where = "games"
 
   // Ask for specific game
-  const what = prompt("What game?");
+  const what = prompt("What game? Your options are all the games in Unblocked78.github.io/games");
 
   // Generate iframe URL
   const url = `https://unblocked78.github.io/${where}/${what}.html`;  
